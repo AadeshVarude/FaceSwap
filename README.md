@@ -6,6 +6,8 @@
 
  # Facial Landmarks detection
  The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmakrs. This is analogous to the detection of corners in the panorama project. One of the major reasons to use facial landmarks instead of using all the points on the face is to reduce computational complexity. Remember that better results can be obtained using all the points (dense flow) or using a meshgrid. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. A sample output of Dlib is shown below.
+ 
+ 
  ![image](https://user-images.githubusercontent.com/50541542/195431210-a1746047-da10-48ae-9e88-e2f7909a5ba4.png)
 
 # Face Warping using Triangulation
